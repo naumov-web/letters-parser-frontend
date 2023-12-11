@@ -29,7 +29,7 @@ function Collections() {
             </thead>
             <tbody>
                 {collections.map(
-                    (item: any) => <tr>
+                    (item: any) => <tr key={item.id}>
                         <td>{item.id}</td>
                         <td>{item.name}</td>
                         <td>
